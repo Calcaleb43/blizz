@@ -42,6 +42,9 @@
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<!-- Theme style -->
 	<link rel="stylesheet" href="css/style.css">
+	<!--Owl Carousel-->
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/owl.theme.default.css">
 
 
 	<!-- Modernizr JS -->
@@ -59,13 +62,39 @@
 	<div class="fh5co-page">
 
 	<div id="fh5co-container">
-		<div id="fh5co-home" class="js-fullheight-home" data-section="home" style="background-image: url(images/main_bg.jpg);" data-stellar-background-ratio="0.5">
-			<div class="container">
-				<div class="col-md-6">
-					<div class="js-fullheight-home fh5co-copy">
-						<div class="js-fullheight-home fh5co-copy-inner">
-							<h1>BLIZZ CO. LTD</h1>
-							<h2>Your Home finishing Experts</h2>
+		<div class="owl-carousel">
+			<div id="fh5co-home" class="js-fullheight-home" data-section="home" style="background-image: url(images/main_bg.jpg);" data-stellar-background-ratio="0.5">
+				<div class="container">
+					<div class="col-md-6">
+						<div class="js-fullheight-home fh5co-copy">
+							<div class="js-fullheight-home fh5co-copy-inner">
+								<h1>BLIZZ CO. LTD</h1>
+								<h2>Your Home finishing Experts</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="fh5co-home" class="js-fullheight-home" data-section="home" style="background-image: url(images/main_bg.jpg);" data-stellar-background-ratio="0.5">
+				<div class="container">
+					<div class="col-md-6">
+						<div class="js-fullheight-home fh5co-copy">
+							<div class="js-fullheight-home fh5co-copy-inner">
+								<h1>BLIZZ CO. LTD</h1>
+								<h2>Your Home finishing Experts</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="fh5co-home" class="js-fullheight-home" data-section="home" style="background-image: url(images/main_bg.jpg);" data-stellar-background-ratio="0.5">
+				<div class="container">
+					<div class="col-md-6">
+						<div class="js-fullheight-home fh5co-copy">
+							<div class="js-fullheight-home fh5co-copy-inner">
+								<h1>BLIZZ CO. LTD</h1>
+								<h2>Your Home finishing Experts</h2>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -118,7 +147,7 @@
 								<h2><strong>VISION</strong></h2>
 								<p><blockquote>To become the leading solution provider of beauty and protection for homes and offices in Ghana within the next five years</blockquote> </p>
 								<h2><strong>MISSION</strong></h2>
-								<p>To provide beauty and protection to homes, offices and the environments</p>
+								<p>To become the leading solution provider of beauty and protection for homes and offices in Ghana within the next five years while maintaining the highest standards of professionalism and operational excellence through the use of modern technology</p>
 								<p><a href="#" class="btn btn-primary btn-outline">Get In Touch</a></p>
 							</div>
 
@@ -126,8 +155,9 @@
 								<h2>
 									<ul>
 										<li>To recruits or engage retailers or agent across the whole country</li>
-										<li>On periodic basis, we would be engaging artisans like painters, tilers etc on seminars so as to sharpen their skills and knowledge in the sector and also to introduce them to our products.</li>
+										<li>On periodic basis, we would also be engaging artisans like painters, tilers etc on seminars so as to sharpen their skills and knowledge in the sector and also to introduce them to our products.</li>
 										<li>Those who comes to our trainings and seminars would be certified and also assisted with work or contracts.</li>
+										<li>	We would also liaise with the Technical University to link up and bridge the knowledge gab in the sector as pacesetters in the industry.</li>
 									</ul>
 								</h2>
 								<!-- <ul class="checked">
@@ -397,6 +427,30 @@
 	<!-- Magnific Popup -->
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/magnific-popup-options.js"></script>
+	<!--Owl Carousel JS-->
+	<script src="js/owl.carousel.js"></script>
+	<script>
+		$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:1,
+            nav:false
+        },
+        1000:{
+            items:1,
+            nav:true,
+            loop:false
+        }
+    }
+})
+	</script>
 	<!-- Main JS -->
 	<script src="js/main.js"></script>
 
